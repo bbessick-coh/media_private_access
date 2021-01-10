@@ -2,7 +2,8 @@ name: 'Media Private Access'
 type: module
 description: 'Enables a more advanced access control system to media entities.'
 package: Media
-# core: 8.x
+core: 8.x
+core_version_requirement: ^8 || ^9
 
 dependencies:
   - drupal:media
@@ -12,6 +13,5 @@ test_dependencies:
 
 # Information added by Drupal.org packaging script on 2018-07-10
 version: '8.x-1.x-dev'
-core: '8.x'
 project: 'media_private_access'
 datestamp: 1531214026
